@@ -1,9 +1,11 @@
-from collections import Counter
+def smallerNumbersThanCurrent(nums):
+    sortedArr=sorted(nums)
+    newArr=[]
+    for i,num in enumerate(nums):
+        newArr.append(sortedArr.index(num))
+    return newArr
 
 
-def smallerNumbersThanCurrent( nums ):
-    feven = Counter(nums)
-    return feven
 
     
 
