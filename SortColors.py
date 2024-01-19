@@ -1,6 +1,6 @@
-def sortColors( nums) :
+def sortColors(nums):
     left = 0
-    right = len(nums)-1
+    right = len(nums) - 1
     index = 0
 
     def swap(i, j):
@@ -20,5 +20,6 @@ def sortColors( nums) :
         index += 1
     return nums
 
-nums = [2,0,2,1,1,0]
+
+nums = [2, 0, 2, 1, 1, 0]
 print(sortColors(nums))

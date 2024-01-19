@@ -1,8 +1,17 @@
-def removeKdigits( num,k) :
-    listn=list(num) 
-    return listn
-    
-num='1234567890'
-k=9
+class Person:
+    def __init__(self, x):
+        self.name = x
 
-print(removeKdigits(num,k))
+    def talk(self):
+        print(f"I am {self.name},I can speak amharic and english")
+
+    def draw(self):
+        print("draw")
+
+
+feven = Person("feven")
+nate = Person("nati")
+
+
+print(feven.name)
+feven.talk()
